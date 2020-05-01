@@ -145,7 +145,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let gridMaterial = SCNMaterial()
         
-        gridMaterial.diffuse.contents = UIImage(named: "art.scnassets/grid.png")
+        gridMaterial.diffuse.contents = UIColor.clear
         
         plane.materials = [gridMaterial]
         
